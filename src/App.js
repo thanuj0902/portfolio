@@ -69,10 +69,7 @@ function App() {
 
         <div className="project-grid">
           <div className="card">
-            <div className="card-header">
-              <h3>ForgaFlow</h3>
-              <span className="stars">⭐ 3</span>
-            </div>
+            <h3>ForgaFlow</h3>
             <p>
               Config-driven full-stack app generator — creates frontend UI, backend APIs, database schemas, and auth from JSON configs. Built with Next.js, Express, PostgreSQL.
             </p>
@@ -80,10 +77,7 @@ function App() {
           </div>
 
           <div className="card">
-            <div className="card-header">
-              <h3>PayGrade</h3>
-              <span className="stars">⭐ 3</span>
-            </div>
+            <h3>PayGrade</h3>
             <p>
               Level-based compensation intelligence platform for India's tech industry. Submit and compare salary data with standardized level mapping.
             </p>
@@ -91,21 +85,7 @@ function App() {
           </div>
 
           <div className="card">
-            <div className="card-header">
-              <h3>AI Code Reviewer</h3>
-              <span className="stars">⭐ 3</span>
-            </div>
-            <p>
-              AI-powered code review tool — paste code, get instant AI feedback on bugs, security, performance, and style. Built with Spring Boot + Next.js + Gemini AI.
-            </p>
-            <a href="https://github.com/thanuj0902/AI-code-reviewer" target="_blank" rel="noreferrer" className="card-link">View on GitHub →</a>
-          </div>
-
-          <div className="card">
-            <div className="card-header">
-              <h3>Connect Four Game</h3>
-              <span className="stars">⭐ 5</span>
-            </div>
+            <h3>Connect Four Game</h3>
             <p>
               Interactive Connect Four game built with React — player names, color selection, win detection, and live scoreboard.
             </p>
@@ -113,10 +93,15 @@ function App() {
           </div>
 
           <div className="card">
-            <div className="card-header">
-              <h3>TestForge</h3>
-              <span className="stars">⭐ 1</span>
-            </div>
+            <h3>AI Code Reviewer</h3>
+            <p>
+              AI-powered code review tool — paste code, get instant AI feedback on bugs, security, performance, and style. Built with Spring Boot + Next.js + Gemini AI.
+            </p>
+            <a href="https://github.com/thanuj0902/AI-code-reviewer" target="_blank" rel="noreferrer" className="card-link">View on GitHub →</a>
+          </div>
+
+          <div className="card">
+            <h3>TestForge</h3>
             <p>
               AI-Powered Test Case Generator — generates unit tests for JS, Python, Java, and Go using a rule engine with optional AI enhancement.
             </p>
