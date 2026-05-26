@@ -6,9 +6,26 @@
   font-family: Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #0f172a;
   color: white;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .portfolio {
@@ -58,13 +75,15 @@ body {
 }
 
 .profile-img {
-  width: 180px;
-  height: 180px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid #38bdf8;
+  object-position: 50% 30%;
+  border: 4px solid #38bdf8;
   margin-bottom: 25px;
-  box-shadow: 0 0 25px rgba(56, 189, 248, 0.5);
+  filter: contrast(1.1) saturate(1.05);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
 }
 
 .hero-content h2 {
@@ -131,9 +150,100 @@ body {
   transform: translateY(-8px);
 }
 
-.card h3 {
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 15px;
+}
+
+.card h3 {
   color: #38bdf8;
+}
+
+.stars {
+  font-size: 14px;
+  background: #334155;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card-link:hover {
+  color: #7dd3fc;
+  transform: translateX(4px);
+}
+
+.edu-card {
+  background: #1e293b;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 35px;
+  border-radius: 15px;
+  border-left: 4px solid #38bdf8;
+  text-align: left;
+}
+
+.edu-card h3 {
+  color: #38bdf8;
+  margin-bottom: 8px;
+}
+
+.edu-meta {
+  font-size: 15px !important;
+  color: #94a3b8;
+  margin-bottom: 12px;
+}
+
+.edu-desc {
+  font-size: 16px !important;
+  line-height: 1.7;
+}
+
+.contact-links p {
+  margin-bottom: 10px;
+}
+
+.contact-links a {
+  color: #38bdf8;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  color: #7dd3fc;
+  text-decoration: underline;
+}
+
+.top-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: #38bdf8;
+  color: #0f172a;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+  transition: 0.3s;
+  z-index: 100;
+}
+
+.top-btn:hover {
+  transform: scale(1.1);
 }
 
 .skills {
