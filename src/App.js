@@ -39,6 +39,12 @@ const projects = [
     github: "https://github.com/thanuj0902/ForgaFlow",
   },
   {
+    title: "Connect Four Game",
+    desc: "Interactive Connect Four game built with React — player names, color selection, win detection, and live scoreboard.",
+    tags: ["React"],
+    github: "https://github.com/thanuj0902/Connect-Game",
+  },
+  {
     title: "PayGrade",
     desc: "Level-based compensation intelligence platform for India's tech industry. Submit and compare salary data with standardized level mapping.",
     tags: ["Next.js", "Express", "PostgreSQL", "Prisma"],
@@ -55,12 +61,6 @@ const projects = [
     desc: "AI-Powered Test Case Generator — generates unit tests for JS, Python, Java, and Go using a rule engine with optional AI enhancement.",
     tags: ["React", "Vite", "Express", "Ollama"],
     github: "https://github.com/thanuj0902/TestForge",
-  },
-  {
-    title: "Connect Four Game",
-    desc: "Interactive Connect Four game built with React — player names, color selection, win detection, and live scoreboard.",
-    tags: ["React"],
-    github: "https://github.com/thanuj0902/Connect-Game",
   },
 ];
 
