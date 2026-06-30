@@ -148,7 +148,7 @@ function App() {
       <nav className="navbar">
         <h1 className="logo">Thanuj</h1>
         <ul>
-          {["about", "education", "projects", "skills", "contact"].map((id) => (
+          {["about", "education", "experience", "projects", "skills", "contact"].map((id) => (
             <li key={id}>
               <a href={`#${id}`} className={activeSection === id ? "active" : ""}>
                 {id.charAt(0).toUpperCase() + id.slice(1)}
