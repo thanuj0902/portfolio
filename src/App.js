@@ -196,8 +196,12 @@ function App() {
               <span className="stat-label">Technologies</span>
             </div>
             <div className="stat">
-              <span className="stat-number">3</span>
-              <span className="stat-label">AI Apps</span>
+              <span className="stat-number">100+</span>
+              <span className="stat-label">LeetCode</span>
+            </div>
+            <div className="stat">
+              <span className="stat-number">50+</span>
+              <span className="stat-label">HackerRank</span>
             </div>
           </div>
         </div>
