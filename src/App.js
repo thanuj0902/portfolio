@@ -220,6 +220,34 @@ function App() {
         </div>
       </section>
 
+      <section id="experience" className="section reveal">
+        <h2>Experience</h2>
+        <div className="experience-list">
+          <div className="exp-card">
+            <div className="exp-icon">💼</div>
+            <div className="exp-body">
+              <h3>Full Stack AI Developer</h3>
+              <p className="exp-meta">AI Signal · Internship</p>
+              <p className="exp-desc">
+                Worked on full-stack development integrating AI solutions into web applications
+                using React, Node.js, and AI/ML APIs.
+              </p>
+            </div>
+          </div>
+          <div className="exp-card">
+            <div className="exp-icon">🤖</div>
+            <div className="exp-body">
+              <h3>AI/ML Intern</h3>
+              <p className="exp-meta">IBM · Internship</p>
+              <p className="exp-desc">
+                Gained hands-on experience in AI and machine learning workflows, model
+                deployment, and cloud-based AI solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="projects" className="section reveal">
         <h2>Projects</h2>
         <div className="project-grid">

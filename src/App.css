@@ -480,6 +480,70 @@ body {
   color: #94a3b8;
 }
 
+/* ── Experience ── */
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 32px auto 0;
+}
+
+.exp-card {
+  display: flex;
+  gap: 18px;
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.7));
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid rgba(56, 189, 248, 0.08);
+  text-align: left;
+  backdrop-filter: blur(12px);
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.exp-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #38bdf8, #818cf8);
+}
+
+.exp-card:hover {
+  border-color: rgba(56, 189, 248, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(56, 189, 248, 0.06);
+}
+
+.exp-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.exp-body h3 {
+  color: #f1f5f9;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.exp-meta {
+  font-size: 13px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.exp-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #94a3b8;
+}
+
 /* ── Projects ── */
 .project-grid {
   display: grid;
