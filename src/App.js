@@ -66,12 +66,16 @@ const projects = [
 
 const skillCategories = [
   {
+    label: "Programming Languages",
+    items: ["C", "C++", "Java", "JavaScript"],
+  },
+  {
     label: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+    items: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
   {
     label: "Backend",
-    items: ["Node.js", "Express", "Java", "Spring Boot"],
+    items: ["Node.js", "Express", "Spring Boot"],
   },
   {
     label: "Database",
