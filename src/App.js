@@ -45,16 +45,16 @@ const projects = [
     github: "https://github.com/thanuj0902/PayGrade",
   },
   {
-    title: "TestForge",
-    desc: "AI-Powered Test Case Generator — generates unit tests for JS, Python, Java, and Go using a rule engine with optional AI enhancement.",
-    tags: ["React", "Vite", "Express", "Ollama"],
-    github: "https://github.com/thanuj0902/TestForge",
-  },
-  {
     title: "AI Code Reviewer",
     desc: "AI-powered code review tool — paste code, get instant AI feedback on bugs, security, performance, and style.",
     tags: ["Spring Boot", "Next.js", "Gemini AI"],
     github: "https://github.com/thanuj0902/AI-code-reviewer",
+  },
+  {
+    title: "TestForge",
+    desc: "AI-Powered Test Case Generator — generates unit tests for JS, Python, Java, and Go using a rule engine with optional AI enhancement.",
+    tags: ["React", "Vite", "Express", "Ollama"],
+    github: "https://github.com/thanuj0902/TestForge",
   },
   {
     title: "Connect Four Game",
